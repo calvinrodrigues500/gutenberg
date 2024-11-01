@@ -49,7 +49,7 @@ function render_block_core_categories( $attributes, $content, $block ) {
 
 		$current_category = get_queried_object();
 
-		if (!empty($current_category->slug)) {
+		if ( ! empty( $current_category->slug ) ) {
 			$args['selected'] = $current_category->slug;
 		}
 
